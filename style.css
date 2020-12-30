@@ -9,7 +9,6 @@ header {
 }
 
 ul {
-  color: black;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -24,7 +23,7 @@ li {
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: column;
   height: 400px;
   background-size: cover;
 }
@@ -38,6 +37,10 @@ li {
   position: relative;
   position: relative;
   object-fit: cover;
+}
+
+.logo {
+  margin-top: 100px;
 }
 
 footer {
