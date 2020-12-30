@@ -1,51 +1,49 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    display        : flex;
-    justify-content: space-between;
-    max-width      : 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
 }
 
 ul {
-    color          : black;
-    list-style     : none;
-    display        : flex;
-    justify-content: space-around;
-
+  color: black;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 li {
-    margin: 10px;
+  margin: 10px;
 }
 
-h1 {
-    color          : white;
-    opacity: 0;
-    display        : block;
-    position       : absolute;
-    margin-inline: 50%;
-    background-color: rgb(211, 20, 20);
-    
-
+.banniere-titre {
+  background-image: url("backgroung_image.jpg");
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-size: cover;
 }
 
 .banniere {
-position: relative;
+  position: relative;
 }
 
 .banniere img {
-    max-width    : 100%;
-    position     : relative;
-    position: relative;
-    object-fit: cover;
+  max-width: 100%;
+  position: relative;
+  position: relative;
+  object-fit: cover;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    border : blueviolet solid;
+  border: blueviolet solid;
 }
