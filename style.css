@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display        : flex;
+    justify-content: space-between;
+    max-width      : 100%;
+}
+
+ul {
+    color          : black;
+    list-style     : none;
+    display        : flex;
+    justify-content: space-around;
+
+}
+
+li {
+    margin: 10px;
+}
+
+h1 {
+    color          : white;
+    opacity: 0;
+    display        : block;
+    position       : absolute;
+    margin-inline: 50%;
+    background-color: rgb(211, 20, 20);
+    
+
+}
+
+.banniere {
+position: relative;
+}
+
+.banniere img {
+    max-width    : 100%;
+    position     : relative;
+    position: relative;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border : blueviolet solid;
+}
