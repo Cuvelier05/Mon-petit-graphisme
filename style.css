@@ -1,14 +1,16 @@
+/*--MAIN--*/
 body {
   font-family: "Roboto", sans-serif;
 }
 
+/*--HEADER--*/
 header {
   display: flex;
   justify-content: space-between;
   max-width: 100%;
 }
 
-ul {
+header ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -18,12 +20,13 @@ li {
   margin: 10px;
 }
 
+/*--BANNIERRE--*/
 .banniere-titre {
   background-image: url("backgroung_image.jpg");
   color: white;
   display: flex;
   justify-content: center;
-  align-items: column;
+  align-items: center;
   height: 400px;
   background-size: cover;
 }
@@ -39,14 +42,45 @@ li {
   object-fit: cover;
 }
 
-.logo {
-  margin-top: 100px;
+/*--MAIN--*/
+
+main{
+  margin-left: 20em;
+  margin-right: 20em;
+ }
+
+.title-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+#section {
+ display: flex;
+ justify-content: space-around;
+}
+
+/*--FOOTER--*/
+.title-footer{
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
+  background-color: rgb(104, 58, 177);
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  border: blueviolet solid;
 }
+
+.socialnetwork{
+  color: grey;
+font-size: 3em;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-left: 18em ;
+margin-right: 18em;
+} 
