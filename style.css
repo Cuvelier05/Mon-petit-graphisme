@@ -1,13 +1,14 @@
-/*--MAIN--*/
+/*--BODY--*/
 body {
   font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+  margin-right: 40px;
 }
 
 /*--HEADER--*/
 header {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
 }
 
 #logo {
@@ -17,7 +18,6 @@ header {
 header ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
 }
 
 li {
@@ -27,25 +27,20 @@ li {
 /*--BANNIERRE--*/
 .banniere-titre {
   background-image: url("backgroung_image.jpg");
+  background-size: cover;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  background-size: cover;
+  height: 800px;
 }
 
-.banniere {
-  position: relative;
-}
-
-.banniere img {
-  max-width: 100%;
-  object-fit: cover;
+#logo-banniere {
+  width: 250px;
 }
 
 /*--MAIN--*/
-
 main {
   display: flex;
   justify-content: center;
@@ -110,10 +105,11 @@ main h2 {
 }
 
 footer {
-  background-color: #7451eb;
+  background-color: #5b359d;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .socialnetwork {
