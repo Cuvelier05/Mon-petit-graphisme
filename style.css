@@ -47,28 +47,66 @@ li {
 /*--MAIN--*/
 
 main {
-  margin-left: 20em;
-  margin-right: 20em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+main h2 {
+  font-weight: normal;
 }
 
 .title-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
   margin-top: 5rem;
+  font-size: x-large;
 }
 
 #section {
-  display: flex;
-  justify-content: space-evenly;
   margin-top: 5rem;
+  display: flex;
+  justify-content: center;
 }
 
+.graphisme {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.strategie {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+
+.illustrations {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.commentaire {
+  font-size: x-large;
+}
+
+.signature {
+  font-size: large;
+  margin-bottom: 1rem;
+  margin-top: -3rem;
+}
 /*--FOOTER--*/
 .title-footer {
   color: white;
   display: flex;
   justify-content: center;
+  font-size: small;
+  margin-top: 2rem;
 }
 
 footer {
@@ -80,13 +118,9 @@ footer {
 
 .socialnetwork {
   color: gray;
-  font-size: 3em;
+  font-size: 2em;
   display: flex;
-  justify-content: space-around;
-
-  align-items: center;
-  margin-left: 10em;
-  margin-right: 10em;
+  justify-content: center;
 }
 
 .ending {
