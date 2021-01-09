@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin-left: 20px;
   margin-right: 40px;
+  text-align: center;
 }
 
 /*--HEADER--*/
@@ -44,9 +45,8 @@ li {
 main {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin: auto;
+  max-width: 800px;
 }
 
 main h2 {
